@@ -1,12 +1,11 @@
-import logo from "./sheCodesLogo.png";
 import Dictionary from "./Dictionary";
 import "./App.css";
 
 export default function App() {
   return (
-    <div className="App">
+    <div className="App container-fluid">
       <header className="App-header">
-        <img src={logo} className="App-logo img-fluid" alt="logo" />
+        <h1>Dictionary</h1>
       </header>
       <main>
         <Dictionary />
