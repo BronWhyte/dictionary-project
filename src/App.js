@@ -10,7 +10,16 @@ export default function App() {
       <main>
         <Dictionary />
       </main>
-      <footer>Open-source code by Bronwyn Whyte</footer>
+      <footer>
+        <a
+          href="https://github.com/BronWhyte/dictionary-project"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Open-source code
+        </a>{" "}
+        by Bronwyn Whyte
+      </footer>
     </div>
   );
 }
