@@ -8,7 +8,7 @@ export default function App() {
         <h1>Dictionary</h1>
       </header>
       <main>
-        <Dictionary />
+        <Dictionary defaultKeyword="ephemeral" />
       </main>
       <footer>
         <a
@@ -19,6 +19,8 @@ export default function App() {
           Open-source code
         </a>{" "}
         by Bronwyn Whyte
+        <br />
+        Powered by <a href="https://www.shecodes.io">SheCodes</a>
       </footer>
     </div>
   );
