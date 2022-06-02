@@ -20,7 +20,10 @@ export default function App() {
         </a>{" "}
         by Bronwyn Whyte
         <br />
-        Powered by <a href="https://www.shecodes.io">SheCodes</a>
+        Powered by{" "}
+        <a href="https://www.shecodes.io" target="_blank" rel="noreferrer">
+          SheCodes
+        </a>
       </footer>
     </div>
   );
